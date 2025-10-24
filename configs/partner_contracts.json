@@ -1,0 +1,10 @@
+{
+  "spotify": {
+    "columns": {
+      "artist_id": {"not_null": true},
+      "amount": {"not_null": true},
+      "platform": {"allowed_values": ["Spotify"]}
+    },
+    "expected_frequency": "daily"
+  }
+}
